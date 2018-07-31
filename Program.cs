@@ -6,10 +6,28 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
+    class Program{
+        static void Main(string[] args){ 
+            int menu = 0;
+            while (menu != 5){
+                Console.WriteLine("enter 1 to get circle vaules");
+                Console.WriteLine("enter 2 to get circle area");
+                Console.WriteLine("enter 3 to get square vaules");
+                Console.WriteLine("enter 4 to get square area");
+                Console.WriteLine("enter e to close");
+                menu = int.Parse(Console.ReadLine());
+                switch(menu)
+                {
+                    case 1:
+                        break;
+                }
+            }
         }
+    }
+    class Square{
+
+    }
+    class Circle{
+
     }
 }
