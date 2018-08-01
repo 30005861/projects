@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2
+namespace Coursecodee1
 {
     class Program{
         static void Main(string[] args){ 
             int menu = 0;
             int[] squarenums = new int[] { 0, 0 };
-            int[] squarenums = new int[] { 0, 0 };
+            int[] circlenums = new int[] { 0, 0 };
             while (menu != 5){
                 Console.WriteLine("enter 1 to get circle vaules");
                 Console.WriteLine("enter 2 to get circle area");
@@ -21,8 +21,8 @@ namespace ConsoleApp2
                 switch(menu){
 
                     case 1:
-                        Console.WriteLine(Square.squares());
-                        Console.ReadLine
+                        Console.WriteLine(Square.Getsquare());
+                        Console.ReadLine();
                         break;
 
                     case 2:
@@ -33,21 +33,22 @@ namespace ConsoleApp2
     }
 
     class Square{
-        static squares[] getsquare(){
-            squares[0] = 1;
-            return squares;
+        public static int Getsquare(){
+            return 1;
         }
-        static int squarearea(){
 
+        public static int Squarearea(){
+            return 1;
         }
     }
 
     class Circle{
-        static int getcircle(){
-
+        public static int getcircle(){
+            return 1;
         }
-        static int circlearea(){
 
+        public static int Circlearea(){
+            return 1;
         }
     }
 }
